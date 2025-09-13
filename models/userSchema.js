@@ -59,7 +59,6 @@ userSchema.methods.generateAuthToken = async function () {
   }
 };
 
-// ✅ Fix OverwriteModelError by reusing existing model if defined
-const Users = mongoose.models.users || mongoose.model("users", userSchema);
+const Users = mongoose.model("users", userSchema);
 
 module.exports = Users;

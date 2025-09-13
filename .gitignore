@@ -4,20 +4,112 @@
 /node_modules
 /.pnp
 .pnp.js
+jspm_packages/
+web_modules/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # testing
 /coverage
+.nyc_output
+*.lcov
 
 # production
 /build
+dist
+out
+.next
+.nuxt
+.vuepress/dist
+.temp
+.cache
+.svelte-kit/
+**/.vitepress/dist
+**/.vitepress/cache
+.docusaurus
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*
+!.env.example
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+lib-cov
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Optional caches
+.npm
+.eslintcache
+.stylelintcache
+
+# REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Gatsby
+# public
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# Firebase cache directory
+.firebase/
+
+# TernJS port file
+.tern-port
+
+# VSCode testing
+.vscode-test
+
+# Vite log files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
